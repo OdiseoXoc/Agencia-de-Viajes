@@ -1,0 +1,93 @@
+.carousel-item img {
+  max-height: 500px; 
+  object-fit: cover;
+  width: 100%;
+  justify-content: center;
+}
+
+.carousel-caption h3{
+  font-weight: 800;
+}
+/* === Colores generales === */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === Títulos === */
+h1, h2, h3, h4 {
+  color: #004080;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* === Formularios === */
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas de campos */
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs y textareas */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Botones */
+button,
+.btn {
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+/* Espaciado para botones múltiples */
+button + button {
+  margin-left: 10px;
+}
+
+/* === Alertas de éxito === */
+.alert-success {
+  border-left: 5px solid #28a745;
+  font-size: 16px;
+}
+
+/* === Tablas === */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #004080;
+  color: white;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  form {
+    padding: 15px;
+  }
+
+  .table {
+    font-size: 14px;
+  }
+}
+
